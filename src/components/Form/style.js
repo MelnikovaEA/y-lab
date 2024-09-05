@@ -28,6 +28,8 @@ export const Button = styled.button`
     background-color: #F8F1FF;
     cursor: pointer;
     transition: border-color 0.25s;
+    width: 40%;
+    box-sizing: border-box;
 
     &:hover,
     &:focus {
@@ -40,6 +42,11 @@ export const Button = styled.button`
         opacity: 0.5;
         border-color: transparent;
         outline: none;
+        
+        &:hover,
+        &:focus{
+            box-shadow: none;
+        }
     }
 `
 
